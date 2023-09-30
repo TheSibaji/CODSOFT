@@ -6,7 +6,7 @@ import java.util.Random;
 public class NumberGame {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Random random = new Random();
+        Random random = new Random();   //Choose random number
         int lowLimit = 1;
         int uppLimit = 100;
         int guessedNum;
@@ -16,7 +16,7 @@ public class NumberGame {
         boolean playAgain = true;
         String user;
 
-        System.out.print("Enter your name: ");
+        System.out.print("Enter your name: ");    //Taking user name for making the game interesting
         user = sc.nextLine();
 
         System.out.println("Hello, "+user+" Welcome to the 'Guess the Number' game!");
